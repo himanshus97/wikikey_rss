@@ -2,13 +2,13 @@
 """
 Main.py
 used to run whole code in systematic manner, it takes 2 optional arguments
-regex or soup just for demonstration of two implementations. 
+regex or soup just for demonstration of two implementations.
 
 References
 -> https://www.tutorialspoint.com/python/python_command_line_arguments.htm
 """
 import sys,getopt
-from bin import rsstitle
+import rsstitle
 
 if __name__ == "__main__":
 
@@ -28,11 +28,11 @@ if __name__ == "__main__":
             elif opt in ("-o", "--option"):
                 if arg == 'soup':
                     print("_____RUNNING RSS TITLE EXTRACTION USING BEAUTIFULSOUP____")
-                    rsstitle.soup()
+                    bin.rsstitle.soup()
                     print("_____EXTRACTION DONE____")
                 elif arg == 'regex':
                     print("_____RUNNING RSS TITLE EXTRACTION USING REGEX____")
-                    rsstitle.regex()
+                    bin.rsstitle.regex()
                     print("_____EXTRACTION DONE____")
                 else:
                     print("----Please Enter Valid input----")
