@@ -28,11 +28,11 @@ if __name__ == "__main__":
             elif opt in ("-o", "--option"):
                 if arg == 'soup':
                     print("_____RUNNING RSS TITLE EXTRACTION USING BEAUTIFULSOUP____")
-                    bin.rsstitle.soup()
+                    rsstitle.soup()
                     print("_____EXTRACTION DONE____")
                 elif arg == 'regex':
                     print("_____RUNNING RSS TITLE EXTRACTION USING REGEX____")
-                    bin.rsstitle.regex()
+                    rsstitle.regex()
                     print("_____EXTRACTION DONE____")
                 else:
                     print("----Please Enter Valid input----")
