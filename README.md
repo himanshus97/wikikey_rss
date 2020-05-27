@@ -1,4 +1,4 @@
-# wikikey_rss
+# wizikey_rss
 
 <h3>Steps:</h3>
   Step 1: GO TO THE FOLDER and OPEN TERMINAL
